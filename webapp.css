@@ -1,0 +1,226 @@
+@charset "UTF-8"
+
+#hidden	{
+	position: absolute;
+	height: 305px;
+	width: auto;	
+}
+
+/* body style */
+
+body {
+	background-color:rgb(204, 16, 190);
+}
+
+/* text style */
+
+#text	{
+	position: absolute;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 32px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	color: chartreuse;
+}
+
+/* button style */
+
+.button {
+	background-color: #2BD9EA;
+	height: 105px;
+	width: 250px;
+	border-radius: 50px;
+	position: relative;
+	border-bottom-width: thick;
+	margin-top: 50px;
+	left: 23%;
+	top: 120px;
+	border-color: #BFBFBF;
+	border: 1px solid #333333;
+	font-size: 20px;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+}
+
+
+/* button animation */
+
+#animation:hover {
+	animation-name: pulse_animation;
+	animation-duration: 2s;
+	transform-origin: 70% 70%;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+#animation2:hover {
+	animation-name: pulse_animation;
+	animation-duration: 2s;
+	transform-origin: 70% 70%;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+
+@keyframes pulse_animation {
+0% { transform: scale(1.1); left: 23.1%; background-color: #0035FF}
+50% { transform: scale(1.25); left: 23.35%; background-color:#06FFF8}
+100% { transform: scale(1.1); left: 23.1%; background-color:#0035FF}
+}
+
+@media screen and (min-width: 550px) {
+	.button	{
+		left: 32%;
+	}
+	@keyframes pulse_animation {
+	0% { transform: scale(1.1); left: 32.2%; background-color: #0035FF}
+	50% { transform: scale(1.25); left: 32.35%; background-color:#06FFF8}
+	100% { transform: scale(1.1); left: 32.1%; background-color:#0035FF}
+	}
+}
+@media screen and (min-width: 720px) {
+	.button	{
+		left: 33%;
+	}
+	@keyframes pulse_animation {
+	0% { transform: scale(1.1); left: 33.2%; background-color: #0035FF}
+	50% { transform: scale(1.25); left: 33.35%; background-color:#06FFF8}
+	100% { transform: scale(1.1); left: 33.1%; background-color:#0035FF}
+	}
+}
+@media screen and (min-width: 880px) {
+	.button	{
+		left: 35%;
+	}
+	@keyframes pulse_animation {
+	0% { transform: scale(1.1); left: 35.2%; background-color: #0035FF}
+	50% { transform: scale(1.25); left: 35.35%; background-color:#06FFF8}
+	100% { transform: scale(1.1); left: 35.1%; background-color:#0035FF}
+	}
+}
+@media screen and (min-width: 1000px) {
+	.button	{
+		left: 37%;
+	}
+	@keyframes pulse_animation {
+	0% { transform: scale(1.1); left: 37.2%; background-color: #0035FF}
+	50% { transform: scale(1.25); left: 37.35%; background-color:#06FFF8}
+	100% { transform: scale(1.1); left: 37.1%; background-color:#0035FF}
+	}
+}
+@media screen and (min-width: 1100px) {
+	.button	{
+		left: 39%;
+	}
+	@keyframes pulse_animation {
+	0% { transform: scale(1.1); left: 39.2%; background-color: #0035FF}
+	50% { transform: scale(1.25); left: 39.35%; background-color:#06FFF8}
+	100% { transform: scale(1.1); left: 39.1%; background-color:#0035FF}
+	}
+}
+@media screen and (min-width: 1200px) {
+	.button	{
+		left: 40%;
+	}
+	@keyframes pulse_animation {
+	0% { transform: scale(1.1); left: 40.2%; background-color: #0035FF}
+	50% { transform: scale(1.25); left: 40.35%; background-color:#06FFF8}
+	100% { transform: scale(1.1); left: 40.1%; background-color:#0035FF}
+	}
+}
+@media screen and (min-width: 1300px) {
+	.button	{
+		left: 41%;
+	}
+	@keyframes pulse_animation {
+	0% { transform: scale(1.1); left: 41.2%; background-color: #0035FF}
+	50% { transform: scale(1.25); left: 41.35%; background-color:#06FFF8}
+	100% { transform: scale(1.1); left: 41.1%; background-color:#0035FF}
+	}
+}
+@media screen and (min-width: 1500px) {
+	.button	{
+		left: 42%;
+	}
+	@keyframes pulse_animation {
+	0% { transform: scale(1.1); left: 42.2%; background-color: #0035FF}
+	50% { transform: scale(1.25); left: 42.35%; background-color:#06FFF8}
+	100% { transform: scale(1.1); left: 42.1%; background-color:#0035FF}
+	}
+}
+@media screen and (min-width: 1700px) {
+	.button	{
+		left: 43%;
+	}
+	@keyframes pulse_animation {
+	0% { transform: scale(1.1); left: 43.2%; background-color: #0035FF}
+	50% { transform: scale(1.25); left: 43.35%; background-color:#06FFF8}
+	100% { transform: scale(1.1); left: 43.1%; background-color:#0035FF}
+	}
+}
+@media screen and (min-width: 2000px) {
+	.button	{
+		left: 43.5%;
+	}
+	@keyframes pulse_animation {
+	0% { transform: scale(1.1); left: 43.7%; background-color: #0035FF}
+	50% { transform: scale(1.25); left: 43.85%; background-color:#06FFF8}
+	100% { transform: scale(1.1); left: 43.6%; background-color:#0035FF}
+	}
+}
+@media screen and (min-width: 2200px) {
+	.button	{
+		left: 44%;
+	}
+	@keyframes pulse_animation {
+	0% { transform: scale(1.1); left: 44.2%; background-color: #0035FF}
+	50% { transform: scale(1.25); left: 44.35%; background-color:#06FFF8}
+	100% { transform: scale(1.1); left: 44.1%; background-color:#0035FF}
+	}
+}
+@media screen and (min-width: 2400px) {
+	.button	{
+		left: 45%;
+	}
+	@keyframes pulse_animation {
+	0% { transform: scale(1.1); left: 45.2%; background-color: #0035FF}
+	50% { transform: scale(1.25); left: 45.35%; background-color:#06FFF8}
+	100% { transform: scale(1.1); left: 45.1%; background-color:#0035FF}
+	}
+}
+
+/* 4X4 CELL STYLE */
+
+#four {
+	display: none;
+    width: 400px;
+	height: 600px;
+    margin: auto;
+}
+
+#gameboard {
+    width:400px;
+    height:600px;
+}
+
+#cell4.1,#cell4.2,#cell4.3,#cell4.4,#cell4.5,#cell4.6,#cell4.7,#cell4.8, #cell4.9, #cell4.10, #cell4.11, #cell4.12, #cell4.13, #cell4.14, #cell4.15, #cell4.16 {
+    width:100px;
+    height:100px;
+	float: left;
+    border:3px solid black;
+    margin:0 auto;
+}
+
+/* 5X5 CELL STYLE */
+
+#five		{
+	display: none;
+    width: 550px;
+	height: 700px;
+    margin: auto;
+}
+
+.cell5.1, .cell5.2, .cell5.3, .cell5.4, .cell5.5, .cell5.6, .cell5.7, .cell5.8, .cell5.9, .cell5.10 {
+  width:100px;
+  height:100px;
+  border:solid;
+}
